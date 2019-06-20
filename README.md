@@ -19,7 +19,7 @@ All files like ***.cpp** and ***.h** are source code of SHEIB. It is implemented
 ### DME_and_DNME_100
 The folder contains 68 2-order epistatic models. For each model, a compressed file is uploaded. In each compressed file, there are 100 simulated data (files). The filename indicates the epistatic interaction in the file.
 ### DME_and_DNME_1000
-This simulated dataset is too large to be uploaded. If you need it, you can send email to 2276632042@qq.com (the first author of the article).<br>
+This simulated dataset is too large to be uploaded (about 2.63GB). If you need it, you can send email to 2276632042@qq.com (the first author of the article).<br>
 ### DNME3_100
 The folder contains 40 3-order epistatic models. For each model, a compressed file is uploaded. In each compressed file, there are 100 simulated data (files). The filename indicates the epistatic interaction in the file.
 # 3.Execution
