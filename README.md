@@ -6,7 +6,7 @@ The real dataset (WTCCC dataset) in the article will not be uploaded. Because th
 SHEIB is implemented by C++ and compliled by Cygwin64. The source code has been uploaded. We have also uploaded two executable files (sheib was compiled on linux 64 and sheib.exe was compiled on win7 64).
 # introduction to the uploaded files
 ## sheib.zip:
-All files like *.cpp and *.h are source code of SHEIB.<br>
+All files like ** *.cpp ** and ** *.h ** are source code of SHEIB.<br>
 **bd_gwas.tped** and **bd_gwas.tfam** are sample examples of real gwas dataset. There are only 4000 SNPs in the example.<br>
 data.txt is a sample example of simulated data. It contains 1000 SNPs and [P1,P2] is the epistatic interaction.<br>
 snps_after_2.txt is the gene-mapping data from NCBI.<br>
