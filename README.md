@@ -8,9 +8,12 @@ The real dataset (WTCCC dataset) in the article will not be uploaded. Because th
 
 SHEIB is implemented by C++ and compliled by Cygwin64. The source code has been uploaded. We have also uploaded two executable files (sheib was compiled on linux 64 and sheib.exe was compiled on win7 64).
 
-# introduction to the files in the uploaded folder
+# introduction to the uploaded files
 
 # run on linux 64
+
+compile: g++ -std=c++11 -lpthread *.cpp -o sheib
+
 ./sheib -type 0 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in data.txt -out result.txt
 
 ./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt
@@ -20,6 +23,9 @@ SHEIB is implemented by C++ and compliled by Cygwin64. The source code has been 
 ./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt -SNP2Genes snps_after_2.txt -AssociatedGenes hrpd_after_3.txt
 
 # run on win7 64
+
+The folder uploaded is a project of CodeBlocks. You can open the sheib.cbp using CodeBlocks.
+
 sheib -type 0 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in data.txt -out result.txt
 
 sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt
