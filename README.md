@@ -30,7 +30,7 @@ compile: g++ -std=c++11 -lpthread *.cpp -o sheib<br>
 ./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt -SNP2Genes snps_after_2.txt<br>
 ./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt -SNP2Genes snps_after_2.txt -AssociatedGenes hrpd_after_3.txt<br>
 ## On win7 64
-The folder uploaded is a project of CodeBlocks. You can open the sheib.cbp using CodeBlocks.<br>
+The folder uploaded is a project of CodeBlocks. You can open the sheib.cbp using CodeBlocks. The file sheib.exe is compiled by Cygwin64 in CodeBlocks on win7 64.<br>
 sheib -type 0 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in data.txt -out result.txt<br>
 sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt<br>
 sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in bd_gwas -out result.txt -SNP2Genes snps_after_2.txt<br>
