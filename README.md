@@ -52,3 +52,6 @@ sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 4000000 -pb 0.8 -nShow 4000 -seed
 **-SNP2Genes**: default null, gene-mapping data.<br>
 **-AssociatedGenes**: default null, gene association data.<br>
 
+parameter|default|description
+**-type**|0|type of the input file. 0 (simulated data), 1 (real gwas data).
+
