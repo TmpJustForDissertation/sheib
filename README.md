@@ -7,7 +7,7 @@ SHEIB is implemented by C++ and compliled by Cygwin64. The source code has been 
 # introduction to the uploaded files
 ## sheib.zip:
 All files like *.cpp and *.h are source code of SHEIB.<br>
-bd_gwas.tped and bd_gwas.tfam are sample examples of real gwas dataset. There are only 4000 SNPs in the example.<br>
+**bd_gwas.tped** and **bd_gwas.tfam** are sample examples of real gwas dataset. There are only 4000 SNPs in the example.<br>
 data.txt is a sample example of simulated data. It contains 1000 SNPs and [P1,P2] is the epistatic interaction.<br>
 snps_after_2.txt is the gene-mapping data from NCBI.<br>
 gene_pairs_after_4.txt is the gene association data from DIP.<br>
