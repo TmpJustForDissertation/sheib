@@ -1,4 +1,4 @@
-# sheib
+# sheib (all files are moved to Code Ocean)
 # 1.Introduction
 This web page provides source code and simulated datasets mentioned in the article "SHEIB: a novel stochastic-based approach for detecting high-order epistatic interactions using bioinformation in genome-wide association studies". The article has been submitted to BMC Bioinformatics but has not been published. Please don't download these files, if you are not reviewers or editors.<br>
 The real dataset (WTCCC dataset) in the article will not be uploaded. Because the dataset was downloaded from https://www.wtccc.org.uk/. We have no right to upload it.
