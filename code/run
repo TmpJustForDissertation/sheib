@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "If you need to run the complete simulated experiments in the article, please contact 2276632042@qq.com. On my platform using a Linux
+system with 48G RAM and AMD Ryzen Threadripper 1950X CPU, performing sheib on the three simulated datasets will cost a few days. Performing DECMDR, MACOED, SNPHarvester and AntEpiSeeker may need weeks. So I have not run any simulated experiments on Code Ocean."
+echo "Here are some examples of compiling and running sheib"
+g++ -std=c++11 *.cpp -o sheib -lpthread
+##run sheib on an example of simulated GWAS file.
+./sheib -type 0 -cG 0.05 -cGc 0.05 -o -1 -maxGen 400000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in /data/example.txt -out /results/result_sim.txt
+##run sheib on an example of real GWAS file without any bioinformation.
+./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 400000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in /data/example -out /results/result_real.txt
+##run sheib on an example of real GWAS file with gene-mapping data.
+./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 400000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in /data/example -out /results/result_real_with_gene_mapping.txt -SNP2Genes /data/bio/snps_after_2.txt
+##run sheib on an example of real GWAS file with gene-mapping data and gene association data.
+./sheib -type 1 -cG 0.05 -cGc 0.05 -o -1 -maxGen 400000 -pb 0.8 -nShow 4000 -seed 0 -rn -1 -cs 0 -in /data/example -out /results/result_real_with_hrpd.txt -SNP2Genes /data/bio/snps_after_2.txt -AssociatedGenes /data/bio/hrpd_after_3.txt
+if test -f ./sheib; then
+   mv sheib /results/
+fi
